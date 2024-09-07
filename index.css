@@ -1,0 +1,293 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    color: #ccc;
+    background-image: linear-gradient(to right, #27ccdb, #136169, #061d1f);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #cae3cc;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(231, 231, 240);
+    background-color: #161933;
+    padding: 24px;
+
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .upper-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-image {
+        align-self: flex-start;
+    }
+
+    .about-me-role {
+        width: 30%;
+        margin-left: 75px;
+    }
+
+    .about-me-greetings {
+        margin-left: 200px;
+    }
+
+    .about-me-discrption {
+        width: 60%;
+
+
+    }
+}
+
+.about-me-discrption {
+    font-family: "cursive";
+    text-align: center;
+}
+
+.my-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    border: 5px solid #ffffff;
+
+}
+
+.about-me-greetings {
+    font-size: 32px;
+}
+
+@media (min-width: 768px) {
+    .about-me-greetings {
+        font-size: 28px;
+    }
+
+}
+
+.about-my-skill {
+    /* height: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; */
+    background-color: #201526;
+    padding: 24px;
+}
+
+.about-me-main-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    color: #c8e6e0;
+    text-align: center;
+}
+
+.about-content {
+    width: 100%;
+    text-align: center;
+}
+
+.my-skill-discription {
+    font-size: 18px;
+    color: #d8d9d7;
+}
+
+.my-skill-heading {
+    font-size: 24px;
+    color: #ced9c7;
+    text-align: left;
+}
+
+.skills-cantainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.progress-bar {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 18px;
+}
+
+h4 {
+    color: #bababa;
+}
+
+.html-skill-percentage {
+    color: #ffffff;
+    background-color: #fa4f16;
+    width: 90%;
+}
+
+.css-skill-percentage {
+    color: #ffffff;
+    background-color: #132e9c;
+    width: 80%;
+}
+
+.javaScript-skill-percentage {
+    color: #ffffff;
+    background-color: #cccc18;
+    width: 70%;
+}
+
+.python-skill-percentage {
+    color: #ffffff;
+    background-color: #020e36;
+    width: 80%;
+}
+
+.portfolio-container {
+    padding: 24px;
+    background-color: #230929;
+    /* height: 50%; */
+}
+
+
+.portfolio-heading {
+    color: #c4c2c4;
+}
+
+.gallery-container {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+    .gallery-container {
+        flex-direction: column;
+
+    }
+
+    .project-container {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+.project-container {
+    text-align: center;
+}
+
+.portfolio-image {
+    height: 100px;
+    border: 5px solid #904bb8;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.project-heading {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.form-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #140329;
+    margin-top: 0px;
+    padding: 24px;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+input,
+textarea {
+
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    border-radius: 15px;
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #051396;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
